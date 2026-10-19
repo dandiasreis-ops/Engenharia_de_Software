@@ -1,5 +1,5 @@
 [project]
-name = "ms-dashboard-bff"
+name = "ms-dashboard-bff-dandiasreis2026"
 version = "0.1.0"
 description = "BFF do ms-dashboard (Módulo 6) — portal web central e agregador de métricas"
 requires-python = ">=3.12"

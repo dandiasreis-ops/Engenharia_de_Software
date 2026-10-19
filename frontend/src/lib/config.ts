@@ -4,7 +4,7 @@
 //   usa caminhos relativos (/api, /ws) e o proxy do Vite/nginx encaminha ao BFF.
 // - Na nuvem, o portal e o BFF ficam em domínios diferentes. Defina
 //   VITE_API_BASE_URL (em tempo de BUILD) com a URL pública do BFF, ex.:
-//   https://ms-dashboard-bff.onrender.com
+//   https://ms-dashboard-bff-dandiasreis2026.onrender.com
 const RAW_BASE = (import.meta.env.VITE_API_BASE_URL ?? "").trim().replace(/\/$/, "");
 
 // URL base para chamadas REST (http/https). Vazia => relativa à origem do portal.

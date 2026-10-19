@@ -22,7 +22,7 @@ class Settings(BaseSettings):
 
     # Aplicação
     app_env: Literal["development", "staging", "production"] = "development"
-    app_name: str = "ms-dashboard-bff"
+    app_name: str = "ms-dashboard-bff-dandiasreis2026"
     port: int = 8006
     log_level: str = "INFO"
     cors_origins: str = "http://localhost:5173"
